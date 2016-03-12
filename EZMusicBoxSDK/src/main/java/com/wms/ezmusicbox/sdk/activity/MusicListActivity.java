@@ -112,7 +112,7 @@ public class MusicListActivity extends AppCompatActivity {
 
 				if(audioStreamer != null) {
 					if(audioStreamer.isDownloadingNewFile()) {
-						Toast.makeText(MusicListActivity.this, getString(R.string.waitForMusicDownloading), Toast.LENGTH_LONG).show();
+						Toast.makeText(MusicListActivity.this, getString(R.string.waitForMusicRetrieval), Toast.LENGTH_LONG).show();
 						return;
 					}
 					else {
@@ -152,9 +152,9 @@ public class MusicListActivity extends AppCompatActivity {
 
 					// Display the progress dialog before downloading starts
 					imageButtonPlayMusic.setEnabled(true);
-					progressDialogForStartingDownload = DialogUtil.showWaitingProgressDialog(MusicListActivity.this, ProgressDialog.STYLE_SPINNER, getString(R.string.downloadingMusic), false);
+					progressDialogForStartingDownload = DialogUtil.showWaitingProgressDialog(MusicListActivity.this, ProgressDialog.STYLE_SPINNER, getString(R.string.retrievingMusic), false);
 					startStreamingAudio(music.getUrl(), music.getSize(), music.getDuration(), music.getName(), progressDialogForStartingDownload, (ImageView) view.findViewById(R.id.imageViewMusicIcon));
-					Toast.makeText(MusicListActivity.this, getString(R.string.downloadingMusic), Toast.LENGTH_LONG).show();
+					Toast.makeText(MusicListActivity.this, getString(R.string.retrievingMusic), Toast.LENGTH_LONG).show();
 				}
 			}
 			
@@ -218,7 +218,7 @@ public class MusicListActivity extends AppCompatActivity {
     public void onBackPressed() {
 		if (audioStreamer != null) {
 			if(audioStreamer.isDownloadingNewFile()) {
-				Toast.makeText(MusicListActivity.this, getString(R.string.waitForMusicDownloading), Toast.LENGTH_LONG).show();
+				Toast.makeText(MusicListActivity.this, getString(R.string.waitForMusicRetrieval), Toast.LENGTH_LONG).show();
 				return;
 			}
 			else  {

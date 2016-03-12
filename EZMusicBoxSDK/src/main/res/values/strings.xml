@@ -18,13 +18,13 @@
 
     <string name="playing">Playing: </string>
     <string name="ok">OK</string>
-    <string name="downloadFailedTitle">Download Failed</string>
-    <string name="downloadFailed">Downloading of the music was failed. Please try again.</string>
-    <string name="songNotDownloadedYet">The music is not retrieved yet. Please retrieve it first.</string>
-    <string name="downloaded">Retrieved.</string>
-    <string name="hasDownloaded">has retrieved</string>
-    <string name="downloadingMusic">Retrieving music&#8230;</string>
-    <string name="waitForMusicDownloading">A music is being retrieved. Please wait</string>
+    <string name="retrievalFailedTitle">Retrieval Failed</string>
+    <string name="retrievalFailed">Retrieval of the music was failed. Please try again.</string>
+    <string name="musicNotRetrievedYet">The music is not retrieved yet. Please retrieve it first.</string>
+    <string name="retrieved">Retrieved.</string>
+    <string name="hasRetrieved">has retrieved</string>
+    <string name="retrievingMusic">Retrieving music&#8230;</string>
+    <string name="waitForMusicRetrieval">A music is being retrieved. Please wait</string>
     <string name="error">Error</string>
     <string name="audioPlayerPreparationFailed">Audio player preparation failed. Your device may not support audio playback.</string>
     <string name="musicNotAvailable">The music is not available yet. Please press the music to retrieve first</string>

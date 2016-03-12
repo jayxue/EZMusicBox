@@ -118,7 +118,7 @@ public class StreamingMediaPlayer {
 	        		Runnable updater = new Runnable() { 
 	        			public void run() {
 					        isDownloadingNewFile = false;
-	        				DialogUtil.showExceptionAlertDialog(context, context.getString(R.string.downloadFailedTitle), "Unable to initialize the MediaPlayer for " + mediaUrl);
+	        				DialogUtil.showExceptionAlertDialog(context, context.getString(R.string.retrievalFailedTitle), "Unable to initialize the MediaPlayer for " + mediaUrl);
 	        	        }
 	        	    };
 	        	    handler.post(updater);
@@ -371,7 +371,7 @@ public class StreamingMediaPlayer {
     private void fireDataLoadUpdate() {
 		Runnable updater = new Runnable() {
 	        public void run() {
-	        	textViewMedia.setText(mediaName + " " + context.getString(R.string.hasDownloaded) + " " + totalKBRead + " KB");
+	        	textViewMedia.setText(mediaName + " " + context.getString(R.string.hasRetrieved) + " " + totalKBRead + " KB");
 	    		float loadProgress = ((float)totalKBRead / (float)mediaSizeInKB);
 	    		progressBar.setSecondaryProgress((int)(loadProgress * 100));
 	    		if(loadProgress * 100 > 5) {
@@ -390,7 +390,7 @@ public class StreamingMediaPlayer {
    	        	transferBufferToMediaPlayer();
    	        	isDownloadingNewFile = false;	// Change the flag
    	        	progressBar.setSecondaryProgress(100);
-	        	textViewMedia.setText(mediaSizeInKB + " KB " + context.getString(R.string.downloaded) + " " + context.getString(R.string.playing) + " " + mediaName);
+	        	textViewMedia.setText(mediaSizeInKB + " KB " + context.getString(R.string.retrieved) + " " + context.getString(R.string.playing) + " " + mediaName);
 				playButton.setImageResource(R.drawable.button_pause);
 				playButton.setEnabled(true);
 				imageViewMedia.setImageResource(R.drawable.music_downloaded);
