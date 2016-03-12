@@ -18,6 +18,8 @@ The major features include:
 * Play all cached music in sequential order.
 * Play animation on screen for better experience. The animation can be stopped.
 
+More play mode will be added, such as single song, single looping or random looping. 
+
 Usage
 -----
 
@@ -35,24 +37,26 @@ In order to utilize this library, you just need to do some configurations withou
 * In your app's ```res/values/strings.xml```,
   * Set ```app_name``` (name of your application).
   * Set ```aboutAppText``` (introduction to your application)
-* Replace your app's ic_launcher icons. You may also replace about_app.png, home_header.png or menu_icon.png to customize your app.
+* Replace your app's ```ic_launcher``` icons. You may also replace ```about_app.png```, ```home_header.png``` or ```menu_icon.png``` to further customize your app.
 * In your app's ```assets/music_list.json```, add information for the music to include in your app. For each music, you'll need to provide:
   * auther
   * name
   * link to mp3 file
   * size in KBs
   * duration in seconds
-Note: please pay attention to your links. Many music are copyright-protected material and it is not allowed to download from the Internet for free. You may want to make sure that you have permission of using the material.
-For more information, see https://play.google.com/about/spam.html#impersonation-intellectual-property.
+
+Note: please pay attention to the links. Many music are copyright-protected material and are not allowed to download from the Internet for free. You may want to make sure that you have permission to use the material.
+
+For more information, see the "Unauthorized Use of Copyrighted Content" section in https://play.google.com/about/spam.html#impersonation-intellectual-property.
   
 Of course you can modify any components of the library or add new components to customize your Android app's functionality.
 
 Acknowledgement
 ---------------
 
-This library utilizes the following libraries:
-* Daniele Palombo: https://github.com/DanielePalombo/105RadioAlarm
-* "Java Source Code Warehouse" project from DevDaily.com: http://alvinalexander.com/java/jwarehouse/android-examples/platforms/android-2/samples
+This library utilizes the following works:
+* 105RadioAlarm developed by Daniele Palombo: https://github.com/DanielePalombo/105RadioAlarm
+* Java Source Code Warehouse project from DevDaily.com: http://alvinalexander.com/java/jwarehouse/android-examples/platforms/android-2/samples
 
 Developer
 ---------
