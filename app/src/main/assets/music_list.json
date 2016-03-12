@@ -1,0 +1,18 @@
+{
+	"list": [
+		{
+			"author": "Rufus Wainwright",
+			"name": "Hallelujah",
+			"url": "http://blpwebzine.blogs.com/RufusWainwrightHallelujah.mp3",
+			"size": 3889,
+			"duration": 248
+		},
+		{
+			"author": "Johann Pachelbel",
+			"name": "Cannon in D",
+			"url": "http://incompetech.com/music/royalty-free/mp3-royaltyfree/Canon%20in%20D%20Major.mp3",
+			"size": 11574,
+			"duration": 355
+		}	
+	]
+}

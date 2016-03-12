@@ -1,0 +1,11 @@
+{
+	"list": [
+		{
+			"author": "Some Author",
+			"name": "Some Name",
+			"url": "Some Download URL to the Music",
+			"size": 0,
+			"duration": 0
+		}	
+	]
+}

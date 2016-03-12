@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EZMusicBox Demo</string>
+
+    <string name="aboutAppText">
+This is a handy utility for creating romantic atmosphere to express your love and feeling in dating, proposing marriage, engagement or wedding.
+\n\nA list of carefully selected music is provided for your choice. The app is easy to use for both lovers and DJs. Just press one music and the app will start playing,
+if the music has been retrieved, or start retrieving if not yet. The app can also start playing a music while it is still being retrieved.
+\n\nMore play modes and creating of playlist will be provided soon.
+\n\nProducer: Waterloo Mobile Studio
+\n\nVersion: 1.0
+\n\n* All music in this app are collected from public sources and are not for any commercial use.
+    </string>
+</resources>
