@@ -7,7 +7,7 @@ An Android library for easily creating music box applications for various topics
 
 Details
 -------
-This Android library facilitates developers to create music box applications running on Android. No matter what topic, event or occasion you are facing, as long as you assemble a list of MP3 music links, you can always build an Android app that retrieves and plays music on the fly.
+This Android library facilitates developers to create music box applications running on Android. No matter what topic, event or occasion you are hosting, as long as you assemble a list of MP3 music links, you can easily build an Android app that retrieves and plays music on the fly.
 
 The music apps can be used for various situations to create atmosphere that matches the themes and properly express your feelings.
 
